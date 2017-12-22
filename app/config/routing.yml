@@ -1,0 +1,6 @@
+blog_list:
+    path:     /api
+    defaults: { _controller: ApiController:Api:index }
+ 
+fos_oauth_server_token:
+    resource: "@FOSOAuthServerBundle/Resources/config/routing/token.xml"
